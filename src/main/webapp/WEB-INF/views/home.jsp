@@ -2,13 +2,14 @@
 <%@ page session="false" %>
 <html>
 <head>
-	<title>Home</title>
+	<title>Spittr</title>
+	<link rel="stylesheet" type="text/css" href="<c:url value="/resources/style.css"/>" >
 </head>
 <body>
-<h1>
-	Hello world!  
-</h1>
-
-<P>  The time on the server is ${serverTime}. </P>
+	<h1>
+		Welcome to Spittr 
+	</h1>
+	<a href="<c:url value="/spittles"/>">Splittles</a>
+	<a href="<c:url value="/spiltter/register"/>">Register</a>
 </body>
 </html>
